@@ -6,15 +6,15 @@ require(rvest)
 
 
 ## api authorization
-Quandl.api_key("xcLRyB9FyVTTZsRFkSzh")
+Quandl.api_key(my_api_key)
 
 
 ### extracting the entire database  : https://www.quandl.com/data/BLSI?keyword=
-eco_leading_index_weekly_raw <- Quandl("ECRI/USLEADING", api_key="xcLRyB9FyVTTZsRFkSzh")
+eco_leading_index_weekly_raw <- Quandl("ECRI/USLEADING", api_key=my_api_key)
 head(eco_leading_index_weekly_raw)
 
 "BLS_I/APU0000701111"
-Quandl("BLSI/APU0000701111", api_key="xcLRyB9FyVTTZsRFkSzh")
+Quandl("BLSI/APU0000701111", api_key=my_api_key)
 
 library(XML)
 
@@ -115,7 +115,7 @@ for(i in 1:2){
 str(table_2_code)
 ## example
 
-Quandl("BLSI/CUSR0000SA0", api_key="xcLRyB9FyVTTZsRFkSzh")
+Quandl("BLSI/CUSR0000SA0", api_key=my_api_key)
 
 
 
@@ -160,7 +160,7 @@ str(table_3_code)
 
 ## example
 
-temp<- head(Quandl("BLSI/CWUR0000SAE1", api_key="xcLRyB9FyVTTZsRFkSzh"))
+temp<- head(Quandl("BLSI/CWUR0000SAE1", api_key=my_api_key))
 class(temp$Value)
 temp<- NULL
 
@@ -185,9 +185,9 @@ for (i in 1:nrow(BLSI_All_codes)){
   tryCatch({
   
   # BLSI_All_DF[i] <- paste0(BLSI_All_codes[i,3])  
-  # assign(paste0(BLSI_All_codes[i,6]), Quandl(BLSI_All_codes[i,5], api_key="xcLRyB9FyVTTZsRFkSzh"))
+  # assign(paste0(BLSI_All_codes[i,6]), Quandl(BLSI_All_codes[i,5], api_key=my_api_key))
     
-    temp<- cbind(BLSI_All_codes[i,1:6], Quandl(BLSI_All_codes[i,5], api_key="xcLRyB9FyVTTZsRFkSzh"))
+    temp<- cbind(BLSI_All_codes[i,1:6], Quandl(BLSI_All_codes[i,5], api_key=my_api_key))
     temp$Date <- as.character(temp$Date)
     BLSI_df<- rbind(BLSI_df, temp)
     rownames(BLSI_df) <- NULL
@@ -213,5 +213,5 @@ str(BLSI_df)
 
 save.image()
 
-write.csv(file = "BLS_Inflation_Prices.csv",x = BLSI_df)
+write.csv(file = "BLS_Inflation_Prices.csv",x = BLSI_df)  
 
