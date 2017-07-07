@@ -1,0 +1,280 @@
+[1] ""
+[1] "   (p,d,q) parameter for  AZ_Phoenix  is   c(3, 2, 2)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+         ar1      ar2      ar3      ma1     ma2
+      1.1115  -0.1471  -0.3159  -0.9348  0.4538
+s.e.  0.2347   0.2523   0.1401   0.2403  0.1576
+
+sigma^2 estimated as 0.5749:  log likelihood = -87.3,  aic = 186.6
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  CA_LosAngeles  is   c(3, 2, 2)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+         ar1      ar2     ar3      ma1     ma2
+      0.4011  -0.7267  0.2977  -0.2682  1.0000
+s.e.  0.1157   0.0889  0.1119   0.0400  0.1072
+
+sigma^2 estimated as 1.007:  log likelihood = -110.58,  aic = 233.17
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  CA_SanDiego  is   c(3, 2, 2)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+         ar1      ar2      ar3      ma1     ma2
+      1.3588  -0.3522  -0.3734  -1.7206  0.9995
+s.e.  0.1086   0.1877   0.1083      NaN     NaN
+
+sigma^2 estimated as 1.11:  log likelihood = -114.83,  aic = 241.66
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  CA_SanFrancisco  is   c(1, 2, 0)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+         ar1
+      0.1345
+s.e.  0.1173
+
+sigma^2 estimated as 1.441:  log likelihood = -121.72,  aic = 247.44
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  CO_Denver  is   c(3, 1, 3)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+         ar1     ar2      ar3     ma1      ma2      ma3
+      0.6662  0.6829  -0.7648  0.4531  -0.4335  -0.1594
+s.e.  0.1162  0.1328   0.1058  0.1677   0.1322   0.1449
+
+sigma^2 estimated as 0.3:  log likelihood = -64.26,  aic = 142.52
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  DC_Washington  is   c(3, 2, 1)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+          ar1     ar2     ar3     ma1
+      -0.5079  0.3033  0.1192  0.8314
+s.e.   0.2075  0.1434  0.1208  0.1755
+
+sigma^2 estimated as 0.9916:  log likelihood = -107.62,  aic = 225.24
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  FL_Miami  is   c(1, 2, 0)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+          ar1
+      -0.0100
+s.e.   0.1162
+
+sigma^2 estimated as 1.33:  log likelihood = -118.69,  aic = 241.37
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  FL_Tampa  is   c(1, 2, 0)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+          ar1
+      -0.1858
+s.e.   0.1124
+
+sigma^2 estimated as 1.491:  log likelihood = -123.03,  aic = 250.05
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  GA_Atlanta  is   c(3, 1, 0)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+         ar1     ar2      ar3
+      1.0500  0.1451  -0.4286
+s.e.  0.1041  0.1618   0.1041
+
+sigma^2 estimated as 0.2135:  log likelihood = -51.01,  aic = 110.01
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  IL_Chicago  is   c(2, 2, 3)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+          ar1     ar2     ma1      ma2      ma3
+      -0.1363  0.2805  0.3204  -0.1038  -0.9026
+s.e.   0.1269  0.1275  0.0741   0.0769   0.0826
+
+sigma^2 estimated as 0.4775:  log likelihood = -83.52,  aic = 179.05
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  MA_Boston  is   c(1, 2, 3)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+         ar1      ma1     ma2      ma3
+      0.2307  -0.2863  0.0543  -0.6336
+s.e.  0.1680   0.1350  0.1160   0.0878
+
+sigma^2 estimated as 0.8937:  log likelihood = -104.5,  aic = 219.01
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  MI_Detroit  is   c(1, 2, 3)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+         ar1      ma1      ma2      ma3
+      0.1261  -0.3250  -0.0205  -0.4468
+s.e.  0.1829   0.1476   0.1821   0.1616
+
+sigma^2 estimated as 0.5561:  log likelihood = -86.05,  aic = 182.1
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  MN_Minneapolis  is   c(1, 2, 2)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+         ar1      ma1     ma2
+      0.1135  -0.1898  0.6998
+s.e.  0.1608   0.1219  0.1173
+
+sigma^2 estimated as 1.301:  log likelihood = -118.51,  aic = 245.02
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  NC_Charlotte  is   c(1, 2, 3)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+         ar1      ma1     ma2      ma3
+      0.2374  -0.3544  0.2420  -0.7679
+s.e.  0.1759   0.1503  0.1093   0.0799
+
+sigma^2 estimated as 0.324:  log likelihood = -66.41,  aic = 142.82
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  NV_LasVegas  is   c(1, 2, 2)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+         ar1      ma1     ma2
+      0.2088  -0.1775  0.2843
+s.e.  0.3730   0.3690  0.1096
+
+sigma^2 estimated as 1.592:  log likelihood = -125.61,  aic = 259.22
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  NY_NewYork  is   c(1, 2, 3)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+          ar1     ma1      ma2      ma3
+      -0.0213  0.0186  -0.0189  -0.5023
+s.e.   0.2089  0.1776   0.1275   0.1208
+
+sigma^2 estimated as 0.4459:  log likelihood = -77.58,  aic = 165.17
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  OH_Cleveland  is   c(1, 1, 3)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+         ar1     ma1     ma2      ma3
+      0.3651  0.3693  0.3877  -0.2003
+s.e.  0.8304  0.8270  0.6017   0.5234
+
+sigma^2 estimated as 0.9398:  log likelihood = -107.48,  aic = 224.96
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  OR_Portland  is   c(3, 2, 3)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+         ar1     ar2      ar3      ma1     ma2      ma3
+      0.6306  0.0932  -0.1061  -0.5231  0.2847  -0.5716
+s.e.  0.1883  0.2366   0.2290   0.1603  0.2101   0.2093
+
+sigma^2 estimated as 0.4588:  log likelihood = -78.98,  aic = 171.96
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  WA_Seattle  is   c(0, 2, 3)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+          ma1     ma2      ma3
+      -0.1059  0.4249  -0.1314
+s.e.   0.1215  0.1421   0.1186
+
+sigma^2 estimated as 0.7435:  log likelihood = -96.79,  aic = 201.59
+[1] "#####################################################################"
+[1] ""
+[1] "   (p,d,q) parameter for  Composite_10  is   c(3, 2, 2)  and Statistics are shown below:"
+[1] "------------------------------------------------------------------"
+
+Call:
+arima(x = timeSeriesARIMA03(j), order = eval(parse(text = order.arima.fit[j])))
+
+Coefficients:
+         ar1      ar2     ar3      ma1     ma2
+      1.9434  -1.3484  0.2063  -1.6316  0.8679
+s.e.  0.1534   0.2626  0.1461   0.0984  0.1092
+
+sigma^2 estimated as 0.2799:  log likelihood = -60.57,  aic = 133.15
+[1] "#####################################################################"
