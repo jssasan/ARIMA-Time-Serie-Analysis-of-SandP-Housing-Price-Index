@@ -25,6 +25,8 @@ Check/Run the scripts in the following order:
 
 9. ARIMA_Prediction_Plots.R - Final prediction plots all together
 
+10. Quick Insights of the project at : https://github.com/jssasan/ARIMA-Time-Serie-Analysis/blob/master/ARIMA_S%26P.pdf
+
 
 
 
