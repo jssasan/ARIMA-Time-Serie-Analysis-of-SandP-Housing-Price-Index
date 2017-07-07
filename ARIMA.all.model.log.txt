@@ -1,3 +1,4 @@
+
 [1] "   (p,d,q) parameter for  AZ_Phoenix  is   c(0, 2, 0)  and Statistics are shown below:"
 [1] "------------------------------------------------------------------"
 
