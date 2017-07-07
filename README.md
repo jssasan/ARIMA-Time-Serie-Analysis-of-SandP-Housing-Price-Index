@@ -11,11 +11,11 @@ Check/Run the scripts in the following order:
 3. Basic_Overall_Graphs.R - Generates timeseries plot for all the cities.
 
 4. AutoARIMA.R - 
-a. In this script, Stationarity of timeseries have been check using Stationarity test such as shapiro Test; Dickey-Fuller Test; Kwiatkowski-Phillips-Schmidt-Shin (KPSS) test; ACF- PACF Test. This also tells the order of differencing required for each TS.
-b. autoarima function is used, predicitons were generated too.
+  a. In this script, Stationarity of timeseries have been check using Stationarity test such as shapiro Test; Dickey-Fuller Test; Kwiatkowski-Phillips-Schmidt-Shin (KPSS) test; ACF- PACF Test. This also tells the order of differencing required for each TS.
+  b. autoarima function is used, predicitons were generated too.
           
 
-5.ARIMA_Model_Testing_and_Fitting.R - Here, ARIMA model is tested on different values of P-D-Q for each timeseries. Models were fitted on the best performing orders of P-D-Q.
+5. ARIMA_Model_Testing_and_Fitting.R - Here, ARIMA model is tested on different values of P-D-Q for each timeseries. Models were fitted on the best performing orders of P-D-Q.
 
 6. ARIMA_Model_Diagnostic_Checks.R - Diagnostic checks (Ljung-Box Test, qqNorm Test) are performed on the fitted models.
 
