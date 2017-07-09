@@ -25,7 +25,9 @@ Check/Run the scripts in the following order:
 
 9. ARIMA_Prediction_Plots.R - Final prediction plots all together
 
-10. Quick Insights of the project at : https://github.com/jssasan/ARIMA-Time-Serie-Analysis/blob/master/ARIMA_S%26P.pdf
+10. Model Architecture of the project at : https://github.com/jssasan/ARIMA-Time-Serie-Analysis-of-SandP-Housing-Price-Index/blob/master/ARIMA_Modeling_Architechture.png
+
+11. Quick Insights of the project at : https://github.com/jssasan/ARIMA-Time-Serie-Analysis/blob/master/ARIMA_S%26P.pdf
 
 
 
